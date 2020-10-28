@@ -1,2 +1,4 @@
 # House-Prices-Prediction
 Predicting house prices according to its features like: size in square feet, swimming pool quality, heating quality, and etc.
+
+First, we analyse the data and try to find the outliers to, then, drop them. After that, we check for null values or missing values and do some reasonable imputation. Then, we combine some features to get features that may get us better results. Besides that, we deal with skewness in the data and standardize it in order for the models to run faster and better (usually, machine learning models give better results when the data is standardized). Finally, we model the data with some regression models to try to predict the price of the houses according to their features. We try models such as: Ridge, Lasso, ElasticNet, RandomForest and SVR. We also try an ensemble method by combining the previous models, but we do not get a worth result.
